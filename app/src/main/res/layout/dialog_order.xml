@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="10dp"
+    android:paddingVertical="25dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+  <!--  <SeekBar
+        android:id="@+id/loadSeekBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:progress="50"
+        android:layout_gravity="center"
+        android:progressDrawable="@drawable/progressbar_seek_bar"
+        android:thumb="@drawable/progressbar_thumb2"
+        android:padding="30dp"
+        />-->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_margin="25dp"
+        android:progress="10"
+        android:progressDrawable="@drawable/progressbar_bg"
+
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingHorizontal="15dp"
+        android:layout_marginVertical="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/text_order_dialog"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/montserrat_medium"/>
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingHorizontal="40dp"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/text_exept"
+            android:layout_marginHorizontal="20dp"/>
+
+
+
+
+</LinearLayout>

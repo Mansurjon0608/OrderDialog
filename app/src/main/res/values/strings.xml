@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OrderDialog</string>
+    <string name="text_order_dialog">Siz uchun yangi buyurtma bor</string>
+    <string name="text_00">00:00</string>
+    <string name="text_exept">Qabul qilish</string>
+    <string name="order">Buyurtma</string>
+    <string name="interval">Interval</string>
+</resources>
